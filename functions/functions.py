@@ -11,7 +11,6 @@ def _grabMainData(data):
 
 
 #Sort main data by date
-def (mainData):
-    sortedMainData = list(map())
+def sortMainData(data):
+    return sorted(data, key=lambda x: x[0])
 
-def sortByDate(mainData):
